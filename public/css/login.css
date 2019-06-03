@@ -1,0 +1,132 @@
+.my_bg{
+    height: 63.09rem;
+    background: url("../image/login/bg.jpg") no-repeat;
+    background-position: 100% 100%;
+    background-size: 100%;
+}
+.my_bg::before{
+    width: 100rem;
+    height: 63.09rem;
+    content: "";
+    display: block;
+    background: rgba(120,120,120,0.1);
+    position: absolute;
+    z-index: 1;
+}
+.container>div:first-child{
+    animation: animat 4s;
+    position: relative;
+    z-index: 100;
+}
+.container>div>div:nth-child(2)>div{
+    width: 22rem;
+    height: 21rem;
+    /*box-shadow: 0 0 45px 3px #adadad;*/
+    border-radius: 10px;
+    background: rgba(120, 120, 120, 0.2);
+}
+.d-flex>div>.border-bottom>h3{
+    color: #fff;
+}
+.d-flex>div input{
+    width: 17rem;
+    height: 2.5rem;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    border-radius: 2rem;
+}
+.d-flex>div input.pl-3:hover{
+    background: rgba(256, 256, 256, 0.7);
+}
+.d-flex>div input.pl-3{
+    color: #3f3f3f;
+    font-size: 14px;
+    transition-property: background;
+    transition-duration: 0.7s;
+    background-color: transparent;
+}
+.d-flex>div #check1,#check2{
+    color: #f00;
+    font-size: 13px;
+    padding: 3px;
+    /* width: 90px; */
+    display: none;
+    float: right;
+    margin-right: 50px;
+}
+.d-flex>div #ok1{
+    color: #00deff;
+    font-size: 13px;
+    padding: 3px;
+    /* width: 90px; */
+    display: none;
+    float: left;
+    margin-left: 45px;
+}
+.d-flex>div>div:nth-child(4)>#d1{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.d-flex>div>div>label{
+    font-size: 14px;
+}
+.d-flex>div>div>span>a{
+    font-size: 14px;
+}
+.d-flex>div button{
+    color: #ddd;
+    width: 17rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    border-color: #929292;
+    background-color: rgba(120, 120, 120, 0.5);
+}
+@keyframes animat {
+    0%{
+        transform: translateY(-500px) rotate(10deg);
+    }
+    16.666%{
+        transform: translateY(0) rotate(10deg);
+    }
+    33.333%{
+        transform: translateY(-200px) rotate(10deg);
+    }
+    49.999%{
+        transform: translateY(0) rotate(10deg);
+    }
+    66.666%{
+        transform: translateY(-80px) rotate(10deg);
+    }
+    83.331%{
+        transform: translateY(0) rotate(10deg);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.container>div:nth-child(2)>div{
+    margin-top: 3rem;
+    width: 100rem;
+    /* border: 1px solid #f2f2f2; */
+    box-shadow: 0 11px 34px 6px #ddd;
+}
+/*.container>div:nth-child(2)>div{*/
+    /*width: 22rem;*/
+    /*height: 5rem;*/
+    /*/!*border: 1px solid #000;*!/*/
+    /*border-radius: 28% 100%;*/
+    /*background: rgba(120, 120, 120, 0.08);*/
+    /*box-shadow: 15px 5px 49px 16px rgba(120, 120, 120, 0.08);*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+

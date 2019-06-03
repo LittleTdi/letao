@@ -1,0 +1,18 @@
+.my_bg{
+    /* width: 119.8rem; */
+    height: 63.09rem;
+    background: url("../image/login/bg.jpg") no-repeat;
+    background-position: 100% 100%;
+    background-size: 100%;
+}
+.container>div>div:nth-child(2)>div{
+    height: 28rem;
+}
+.d-flex>div>div:nth-child(6)>#d1{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.d-flex>div>div.mt-3>.my_ml{
+    margin: 0 9rem;
+}
+
